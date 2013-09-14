@@ -1,0 +1,60 @@
+/*******
+Globals
+*******/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  color: #232323;
+  padding: 0;
+  font-size: 1em;
+  font-family: "proxima-nova",helvetica, arial, sans-serif;
+  background-color: #fff; }
+  html ul, body ul {
+    margin: 0;
+    padding: 0; }
+  html li, body li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+
+#wrapper {
+  width: 100%; }
+  #wrapper .logo {
+    width: 125px;
+    margin: 50px auto 0; }
+    #wrapper .logo img {
+      width: 100%; }
+  #wrapper #menu {
+    width: 100%;
+    background-color: #fff;
+    margin: 0; }
+    #wrapper #menu ul {
+      width: 300px;
+      list-style-type: none;
+      margin: 30px auto; }
+    #wrapper #menu a {
+      text-decoration: none;
+      color: #fff; }
+    #wrapper #menu li.menuitem {
+      text-align: center;
+      font-size: 1.5em;
+      font-weight: 700;
+      padding: 15px;
+      background-color: #000;
+      border-radius: 70px;
+      cursor: pointer;
+      margin-bottom: 15px;
+      line-height: 0.9em; }
+
+@media all and (max-width: 630px) {
+  #wrapper .logo {
+    margin: 20px auto 0; }
+  #wrapper #menu ul {
+    width: 75%; }
+  #wrapper #menu li.menuitem {
+    font-size: 1.2em;
+    padding: 15px; } }
