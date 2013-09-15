@@ -1,4 +1,5 @@
 # Random Gradient Generator
-========
 
-A JS random gradient generator based on the number of elements it's applied to.
+This generates two random colors, and figures out the difference of those colors based on the number of elements that you specify. This will create a gradient that is individually applied to each element.
+
+![Poohbers Gradient](gradient.png)
